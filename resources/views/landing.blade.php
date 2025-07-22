@@ -1608,7 +1608,7 @@
         <div class="hero-terminal" id="hero-terminal"></div>
         <div class="hero-socials">
             <a href="https://github.com/" target="_blank" title="GitHub"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.43 7.86 10.96.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.41-5.25 5.7.42.36.79 1.09.79 2.2 0 1.59-.01 2.87-.01 3.26 0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg></a>
-            <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 20h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76c.97 0 1.75.79 1.75 1.76s-.78 1.76-1.75 1.76zm15.25 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.36h.04c.4-.75 1.38-1.54 2.85-1.54 3.05 0 3.61 2.01 3.61 4.62v5.56z"/></svg></a>
+            <a href="https://linkedin.com/hamzaa-rashid" target="_blank" title="LinkedIn"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 20h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76c.97 0 1.75.79 1.75 1.76s-.78 1.76-1.75 1.76zm15.25 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.36h.04c.4-.75 1.38-1.54 2.85-1.54 3.05 0 3.61 2.01 3.61 4.62v5.56z"/></svg></a>
             <a href="mailto:hamza@email.com" title="Email"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 13.065l-11.99-8.065h23.98l-11.99 8.065zm-12-7.065v14h24v-14l-12 8.065-12-8.065z"/></svg></a>
         </div>
         <div class="animated-text" id="animated-text"></div>
@@ -1926,57 +1926,46 @@
             </div>
         </div>
     </section>
-    <section id="contact" style="background: var(--section-bg-alt);">
-        <h1 class="text-center accent" style="margin-bottom: 28px; color: var(--primary); font-size: 2.5rem; font-weight: 800; letter-spacing: 1px; text-shadow: 0 2px 8px #4fd1c755;">Contact Me <span style="font-size:1.5rem;vertical-align:middle;">&#128231;</span></h1>
+    <section id="contact" style="background: var(--section-bg-alt); position: relative; overflow: hidden;">
+        <!-- Floating Contact Symbols -->
+        <div class="contact-floating-symbols">
+            <span class="contact-symbol" style="left: 10%; top: 18%; animation-delay: 0s;"><i class="fa-solid fa-envelope"></i></span>
+            <span class="contact-symbol float-x" style="left: 80%; top: 12%; animation-delay: 1.2s;"><i class="fa-solid fa-phone"></i></span>
+            <span class="contact-symbol" style="left: 20%; top: 70%; animation-delay: 2.1s;"><i class="fa-brands fa-whatsapp"></i></span>
+            <span class="contact-symbol float-x" style="left: 70%; top: 80%; animation-delay: 2.7s;"><i class="fa-brands fa-linkedin"></i></span>
+        </div>
         <div class="container py-5">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8">
-                    <div class="contact-modern-card p-4 p-md-5 mb-4" style="background: linear-gradient(135deg, #1a1f2e 0%, #16213e 100%); border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); position: relative; overflow: hidden;">
-                        <!-- Animated Floating Contact Symbols -->
-                        <div class="contact-floating-symbols">
-                            <span class="contact-symbol" style="left: 10%; top: 18%; animation-delay: 0s;"><i class="fa-solid fa-phone"></i></span>
-                            <span class="contact-symbol float-x" style="left: 80%; top: 12%; animation-delay: 1.2s;"><i class="fa-solid fa-envelope"></i></span>
-                            <span class="contact-symbol" style="left: 20%; top: 70%; animation-delay: 2.1s;"><i class="fa-solid fa-address-book"></i></span>
-                            <span class="contact-symbol float-x" style="left: 70%; top: 80%; animation-delay: 2.7s;"><i class="fa-solid fa-comment-dots"></i></span>
-                            <span class="contact-symbol" style="left: 50%; top: 40%; animation-delay: 1.7s;"><i class="fa-solid fa-paper-plane"></i></span>
-                            <span class="contact-symbol float-x" style="left: 30%; top: 10%; animation-delay: 0.8s;"><i class="fa-solid fa-mobile"></i></span>
-                            <span class="contact-symbol" style="left: 60%; top: 60%; animation-delay: 2.3s;"><i class="fa-solid fa-at"></i></span>
-                            <span class="contact-symbol float-x" style="left: 15%; top: 50%; animation-delay: 1.5s;"><i class="fa-solid fa-location-dot"></i></span>
-                            <span class="contact-symbol" style="left: 85%; top: 55%; animation-delay: 2.9s;"><i class="fa-solid fa-user"></i></span>
-                            <span class="contact-symbol float-x" style="left: 40%; top: 85%; animation-delay: 1.1s;"><i class="fa-solid fa-comments"></i></span>
-                            <span class="contact-symbol" style="left: 60%; top: 25%; animation-delay: 0.5s;"><i class="fa-solid fa-share-nodes"></i></span>
-                            <span class="contact-symbol float-x" style="left: 75%; top: 35%; animation-delay: 1.8s;"><i class="fa-solid fa-id-badge"></i></span>
-                        </div>
-                        <!-- Tech SVG/Illustration -->
-                        <div class="contact-tech-illustration" style="position: absolute; left: 2rem; top: 2rem; opacity: 0.13; z-index: 0;">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="16" fill="#4fd1c7"/><path d="M24 56L40 24L56 56" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 48H48" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
-                        </div>
-                        <!-- Code-like Header -->
-                        <div class="contact-code-header d-flex align-items-center mb-4" style="background: #2d3748; padding: 0.75rem 1.2rem; border-radius: 10px 10px 0 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                            <span class="about-code-icon" style="color: #4fd1c7; margin-right: 0.5rem;"><i class="fa-solid fa-terminal"></i></span>
-                            <span class="about-code-label" style="color: #e2e8f0; font-weight: 500; font-size: 1rem;">contact.js</span>
-                        </div>
-                        <!-- Contact Form -->
-                        <form class="contact-form-modern" style="z-index: 1; position: relative;">
-                            <div class="mb-3">
-                                <label for="contactName" class="form-label" style="color: #4fd1c7;">Name</label>
-                                <input type="text" class="form-control" id="contactName" placeholder="Enter your name" style="background: #1a202c; color: #fff; border: 1.5px solid #4fd1c7; border-radius: 8px;">
-                            </div>
-                            <div class="mb-3">
-                                <label for="contactEmail" class="form-label" style="color: #4fd1c7;">Email</label>
-                                <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email" style="background: #1a202c; color: #fff; border: 1.5px solid #4fd1c7; border-radius: 8px;">
-                            </div>
-                            <div class="mb-3">
-                                <label for="contactMessage" class="form-label" style="color: #4fd1c7;">Message</label>
-                                <textarea class="form-control" id="contactMessage" rows="4" placeholder="Type your message..." style="background: #1a202c; color: #fff; border: 1.5px solid #4fd1c7; border-radius: 8px;"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary px-4 py-2" style="background: linear-gradient(90deg, #4fd1c7 0%, #635bff 100%); border: none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 16px #4fd1c744;">Send Message</button>
-                        </form>
-                        <div class="contact-info-extra mt-4 text-center" style="font-size: 1.13rem; color: #b5c6d3;">
-                            <div class="mb-2"><i class="fa-solid fa-phone" style="color: var(--primary);"></i> <a href="tel:+9663849622" style="color: var(--primary); text-decoration: none; font-weight: 500;">+966 55 384 9622</a> &nbsp;|&nbsp; <a href="tel:+923012424249" style="color: var(--primary); text-decoration: none; font-weight: 500;">+92 301 2424249</a></div>
-                            <div><i class="fa-solid fa-envelope" style="color: var(--primary);"></i> <a href="mailto:hamzantenious@gmail.com" style="color: var(--primary); text-decoration: none; font-weight: 500;">hamzantenious@gmail.com</a></div>
-                        </div>
+            <h1 class="text-center accent" style="margin-bottom: 28px; color: var(--primary); font-size: 2.5rem; font-weight: 800; letter-spacing: 1px; text-shadow: 0 2px 8px #4fd1c755;">Contact Me <span style="font-size:1.5rem;vertical-align:middle;">&#128231;</span></h1>
+            <div class="contact-modern-card mx-auto p-4" style="max-width: 480px; background: linear-gradient(135deg, #1a1f2e 0%, #16213e 100%); border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08);">
+                <div class="text-center mb-4">
+                    <h2 style="color: var(--primary); font-weight: 700; font-size: 2rem; margin-bottom: 0.5rem;">Let's Connect!</h2>
+                    <p style="color: #b5c6d3; font-size: 1.13rem;">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                </div>
+                <div class="d-flex flex-column gap-3" style="font-size: 1.13rem; color: #e6edf3;">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="me-3" style="color: #4fd1c7; font-size: 1.5rem;"><i class="fa-solid fa-envelope"></i></span>
+                        <a href="mailto:hamzantenious@gmail.com" class="ml-2" style="color: #e6edf3; text-decoration: none; font-weight: 500;">hamzantenious@gmail.com</a>
                     </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="me-3" style="color: #4fd1c7; font-size: 1.5rem;"><i class="fa-solid fa-phone"></i></span>
+                        <a href="tel:+966553849622" class="ml-2" style="color: #e6edf3; text-decoration: none; font-weight: 500;">+966 55 384 9622</a>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="me-3" style="color: #25D366; font-size: 1.5rem;"><i class="fa-brands fa-whatsapp"></i></span>
+                        <a href="https://wa.me/966553849622" class="ml-2" target="_blank" style="color: #e6edf3; text-decoration: none; font-weight: 500;">+92 301 2424249</a>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="me-3" style="color: #0077b5; font-size: 1.5rem;"><i class="fa-brands fa-linkedin"></i></span>
+                        <a href="https://linkedin.com/in/hamzaa-rashid" class="ml-2" target="_blank" style="color: #e6edf3; text-decoration: none; font-weight: 500;">LinkedIn</a>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="me-3" style="color: #F13C20; font-size: 1.5rem;"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="ml-2">Saudi Arabia</span>
+                    </div>
+                </div>
+                <div class="text-center mt-4" style="color: #b5c6d3; font-size: 1.08rem;">
+                    <i class="fa-solid fa-handshake-angle" style="color: #4fd1c7; margin-right: 0.5rem;"></i>
+                    Let's build something amazing together!
                 </div>
             </div>
         </div>
@@ -2397,8 +2386,8 @@
     <footer class="site-footer mt-5" style="background: #181c25; color: #e2e8f0; padding: 2.2rem 0 1.2rem 0; border-top: 1.5px solid #23293a;">
         <div class="container d-flex flex-column align-items-center justify-content-center">
             <div class="footer-socials d-flex gap-3">
-                <a href="https://github.com/" target="_blank" class="footer-social-link" style="color: var(--primary); font-size: 1.7rem;"><i class="fa-brands fa-github"></i></a>
-                <a href="https://linkedin.com/" target="_blank" class="footer-social-link" style="color: var(--primary); font-size: 1.7rem;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hamza-bit-lab" target="_blank" class="footer-social-link" style="color: var(--primary); font-size: 1.7rem;"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hamzaa-rashid/" target="_blank" class="footer-social-link" style="color: var(--primary); font-size: 1.7rem;"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="mailto:hamzantenious@gmail.com" class="footer-social-link" style="color: var(--primary); font-size: 1.7rem;"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
